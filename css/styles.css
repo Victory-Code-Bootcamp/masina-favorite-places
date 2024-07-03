@@ -1,0 +1,12 @@
+.container {
+  background-image: url("https://picsum.photos/id/684/600/400");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.content {
+  padding: 50px;
+  transform: translateY(50%);
+  height: 50rem;
+}
