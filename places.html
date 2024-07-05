@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="icon" href="images/favicon.ico">
     <title>Places to Visit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" width="30" height="30"> My Website</a>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="30" height="30">
+                Travel Website
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,10 +33,10 @@
             </div>
         </nav>
     </header>
-
+    
     <main>
         <div class="container">
-            <h1 class="mt-4">Places to Visit</h1>
+            <h1>Places to Visit</h1>
             <div class="accordion" id="placesAccordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -43,7 +46,6 @@
                             </button>
                         </h2>
                     </div>
-
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#placesAccordion">
                         <div class="card-body">
                             <div class="row">
@@ -57,52 +59,33 @@
                         </div>
                     </div>
                 </div>
-                <!-- Repeat similar structure for other places -->
-            </div>
-        </div>
-    </main>
-
-    <footer class="text-center">
-        <div class="container">
-            <a href="#" class="btn btn-social-icon btn-facebook">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="btn btn-social-icon btn-twitter">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="btn btn-social-icon btn-instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
-contact.html
-html
-Copy code
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="icon" href="images/favicon.ico">
-    <title>Contact</title>
-</head>
-<body>
-   
-
-
-
-
-
-
-
-
-
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Place 2
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#placesAccordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Description of place 2.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/place2.jpg" alt="Place 2" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Place 3
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent
