@@ -1,0 +1,51 @@
+body {
+    padding-top: 56px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.jumbotron {
+    background-image: url('images/tron-bg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.parallax {
+    background-image: url('images/parallax-bg.jpg');
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767.98px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
