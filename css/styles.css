@@ -17,9 +17,11 @@ footer img {
 }
 
 .jumbotron {
-    background-image: url('images/tron-bg.jpg');
-    background-size: cover;
-    color: white;
+    background-image: url('../images/tron-bg.jpg');
+    /* background-size: cover; */
+    background-position: center;
+    height: inherit;
+    
 }
 
 .parallax {
