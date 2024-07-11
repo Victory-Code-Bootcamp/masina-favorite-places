@@ -1,6 +1,27 @@
-body {
+
+
+body, html {
+    height: 100%;
     padding-top: 56px;
-}
+  }
+  
+  .parallax, .parallax1 {
+    /* The image used */
+    background-image: url('../images/dcall.jpg');
+    /* background-image: url("https://picsum.photos/id/684/600/400"); */
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax1 {
+    background-image: url('../images/dcall1.jpg');
+  }
 
 footer {
     background-color: #f8f9fa;
@@ -24,14 +45,7 @@ footer img {
     
 }
 
-.parallax {
-    background-image: url('images/parallax-bg.jpg');
-    min-height: 400px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 @media (max-width: 767.98px) {
     .card-columns {
