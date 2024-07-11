@@ -26,7 +26,7 @@ body, html {
 footer {
     background-color: #f8f9fa;
     padding: 20px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
 }
@@ -38,7 +38,7 @@ footer img {
 }
 
 .jumbotron {
-    background-image: url('../images/tron-bg.jpg');
+    background-image: url('../images/tornbg.jpg');
     /* background-size: cover; */
     background-position: center;
     height: inherit;
