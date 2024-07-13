@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Website</title>
+    <title>Western Samoa</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -85,61 +85,104 @@
     </header>
 
     <main>
-      <div class="p-5 mb-4 rounded-3 jumbotron">
-        <div class="container-fluid py-5 text-center">
-          <h1 class="display-5 fw-bold">My Jumbotron Header</h1>
-          <p class="col fs-4">
-            This is an example of how to create a jumbotron-style header in
-            Bootstrap 5 using utility classes.
-          </p>
-          <button class="btn btn-primary">Learn more</button>
-        </div>
-      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="images/samoan.png"
-                alt="Western samoan flag"
-                height="260rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Western Samoa</h5>
-                <p class="card-text">Home</p>
-                <a href="samoa.html" class="btn btn-primary">Learn More</a>
+        <h1>Places to Visit</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Place Item #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">text</div>
+                    <div class="col">
+                      <img src="https://picsum.photos/id/684/600/400" alt="" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="images/egypt.jpg"
-                alt="egypt flag"
-                height="260rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Egypt</h5>
-                <p class="card-text">Description of place 2.</p>
-                <a href="egypt.html" class="btn btn-primary">Learn More</a>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Places #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">text</div>
+                    <div class="col">
+                      <img
+                        src="https://picsum.photos/id/684/600/400"
+                        width="120rem"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <!-- <img src="https://picsum.photos/id/598/600/400" alt=""> -->
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="images/brazil.jpg"
-                alt="brazil flags"
-                height="260rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Brazil</h5>
-                <p class="card-text">Description of place 3.</p>
-                <a href="brazil.html" class="btn btn-primary">Learn More</a>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Places #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">text</div>
+                    <div class="col">
+                      <img
+                        src="https://picsum.photos/id/684/600/400"
+                        width="75rem"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
