@@ -38,8 +38,8 @@ footer img {
 }
 
 .jumbotron {
-    background-image: url('../images/tornbg.jpg');
-    /* background-size: cover; */
+    background-image: url('../images/plane.jpg');
+    background-size: cover;
     background-position: center;
     height: inherit;
     
