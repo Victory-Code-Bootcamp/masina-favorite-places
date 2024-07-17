@@ -7,11 +7,8 @@ body, html {
   
   .parallax, .parallax1 {
     /* The image used */
-    background-image: url('../images/dcall.jpg');
-    /* background-image: url("https://picsum.photos/id/684/600/400"); */
-  
-    /* Full height */
-    height: 100%; 
+    background-image: url('../images/donate3.jpg');
+    height: 40%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -20,7 +17,7 @@ body, html {
     background-size: cover;
   }
   .parallax1 {
-    background-image: url('../images/dcall1.jpg');
+    background-image: url('../images/donatebg.jpg');
   }
 
 footer {
